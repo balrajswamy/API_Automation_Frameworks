@@ -19,4 +19,4 @@ pip install pytest-xdist
 
 How to run a basic testcase?
 
-pytest test_first.py -v -s alluredir=allure_result
+pytest test_first.py --alluredir=allure_result -v -s
